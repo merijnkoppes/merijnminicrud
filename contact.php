@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
   <div id="navbar">
     <img src="img/Riapizzarialogo.png" height="200px">
     <h1>Ria's Pizzaria</h1>
