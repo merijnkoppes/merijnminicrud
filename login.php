@@ -1,4 +1,5 @@
-<?php include_once("includes/connect.php");
+<?php 
+include_once("includes/connect.php");
 include_once("php/loginbackend.php");
 ?>
 <!DOCTYPE html>
@@ -14,7 +15,6 @@ include_once("php/loginbackend.php");
 </head>
 
 <body>
-
   <div id="navbar">
     <img src="img/Riapizzarialogo.png" height="200px">
     <h1>Ria's Pizzaria</h1>
@@ -25,16 +25,11 @@ include_once("php/loginbackend.php");
   </div>
 
   <div id="content">
-
-
-        <form id="loginform" name="login" action="php/loginbackend.php" method="post">
-            Username:  <input id="textbox" type="text" name="username" required><br/>
-            Password:  <input id="textbox" type="password" name="password" required><br/>
-            <input type="submit" name="submit" value="Submit" />
-        </form>
-
-
-
+    <form id="loginform" name="login" action="php/loginbackend.php" method="post">
+        Username:  <input id="textbox" type="text" name="username" required><br/>
+        Password:  <input id="textbox" type="password" name="password" required><br/>
+        <input type="submit" name="submit" value="Submit" />
+    </form>
   </div>
 
   <script src="js/script.js"></script>

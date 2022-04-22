@@ -1,6 +1,4 @@
-
 <?php
-
 $host = 'localhost';
 $db = 'restaurant';
 $user = 'root';
@@ -9,19 +7,17 @@ $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $opt = [
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    PDO::ATTR_EMULATE_PREPARES => false,
+  PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+  PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+  PDO::ATTR_EMULATE_PREPARES => false,
 
 ];
 
 try {
-    $connect = new PDO($dsn, $user, $pass, $opt);
-    $message = "verbinding met de database gemaakt";
+  $connect = new PDO($dsn, $user, $pass, $opt);
+  // $message = "verbinding met de database gemaakt";
 } catch (PDOException $e) {
-    echo $e->getMessage();
-    $message = "database probleem";
+  echo $e->getMessage();
+  $message = "database probleem";
 }
-
-
 ?>
