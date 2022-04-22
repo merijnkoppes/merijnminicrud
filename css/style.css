@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../img/pizzabg1.jpg");
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+#adminbody {
+    background-image: none;
+    background-color: #1F1E1A;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    display: flex;
+    margin: auto;
+    color: #FFD32E;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#navbar a:hover {
+    background-image: linear-gradient(to right, #FFD32E, #f54e00);
+    color: black;
+}
+
+#navbar h1 {
+    color: #FFD32E;
+    font-size: 70px;
+    margin: 20px;
+}
+
+.huidig {
+    background-color: #FFD32E;
+    color: black!important;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover,
+button:hover {
+    background-color: #FED22E;
+    border: none;
+}
+
+input[type=text] {
+    background-image: linear-gradient(to right, #FFD32E, #F34433);
+    border: none;
+}
+
+input[type=submit],
+button {
+    background-color: #F34433;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contactform {
+    width: 40%;
+    border-radius: 5px;
+    background-color: #ff9900;
+    padding: 20px;
+}
+
+#content h1 {
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #f54e00, #ff3e3e);
+    font-size: 60px;
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#berichtentitel {
+    margin-top: 60px;
+    background-image: linear-gradient(to right, #f54e00, #ff3e3e);
+    padding: 3px;
+}
+
+#deletelink {
+    color: red;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+
+#menulist {
+    list-style: none
+}
+
+.hidden {
+    display: none;
+}
+
+#item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 60px;
+    width: 900px;
+    background-color: #FFD32E;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#berichten {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 300px;
+    background-image: linear-gradient(to right, #FE9A12, #ffc341);
+    padding: 15px;
+}
+
+#highliteditem {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 900px;
+    background-image: linear-gradient(to right, #FFD32E, #F34433);
+    font-size: 20px;
+    padding: 20px;
+}
+
+#createform {
+    padding: 20px;
+    background-image: linear-gradient(to right, #FE9A12, #ffc341);
+}
+
+#loginform {
+    padding: 10px;
+    background-image: linear-gradient(to right, #FFD32E, #ff8800);
+}
+
+#loginform input {
+    background-image: linear-gradient(to right, #ff9900, #ff3624);
+    border: none;
+}
+
+#textbox {
+    width: 100%;
+}
+
+#item div {
+    display: flex;
+    margin: 10px;
+}
+
+.admincontent {
+    flex-direction: row!important;
+    background: none!important;
+}
+
+.formdiv {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#updateform {
+    margin-top: 40px;
+}
+
+#updateform label {
+    font-size: 30px;
+    background-image: linear-gradient(to right, #FFD32E, #F34433);
+    border-radius: 2px;
+    padding: 3px;
+}
+
+textarea {
+    background-image: linear-gradient(to right, #FFD32E, #F34433);
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+#info {
+    margin: 30px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #FFD32E;
+    font-size: 20px;
+}
